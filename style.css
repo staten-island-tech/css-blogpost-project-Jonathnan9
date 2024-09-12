@@ -21,10 +21,26 @@ body{
   gap: 20px;
 }
 #first {
-    background-color: red;
+    background-color: rgba(83, 83, 83, 0.538);
     margin: 0 auto;
+    border-radius: 50px;
+    padding: 2%;
 }
 #second {
-    background-color: rgb(23, 0, 0);
+    background-color: rgba(83, 83, 83, 0.538);
     margin: 0 auto;
+    border-radius: 50px;
+    padding: 2%;
+}
+#third {
+    background-color: rgba(83, 83, 83, 0.538);
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 2%;
+}
+#fourth {
+    background-color: rgba(83, 83, 83, 0.538);
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 2%;
 }
