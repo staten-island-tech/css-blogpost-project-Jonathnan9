@@ -1,15 +1,30 @@
 body{
-    background-image: "images/";
+    background-color: #3d3d3d;
 }
 .heading{
     text-align: center;
-    color: rgb(0, 0, 0);
-}
-.articles{
+    color: rgb(191, 191, 191);
+    size: ;
+} 
+/*.articles{
     width: 50vw;
     height: 300px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(87, 37, 37);
     margin: 0 auto; 
-    border: 20px solid rgb(0, 0, 0);
+    border: 20px solid rgb(165, 22, 22);
     padding: 5px;
+}*/
+.article {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+}
+#first {
+    background-color: red;
+    margin: 0 auto;
+}
+#second {
+    background-color: rgb(23, 0, 0);
+    margin: 0 auto;
 }
