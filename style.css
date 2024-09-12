@@ -16,31 +16,39 @@ body{
 }*/
 .article {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(20px, auto);
   gap: 20px;
+  width: 900px;
+  margin: 0 auto;
 }
 #first {
     background-color: rgba(83, 83, 83, 0.538);
-    margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 2%;
 }
 #second {
     background-color: rgba(83, 83, 83, 0.538);
-    margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 2%;
 }
 #third {
     background-color: rgba(83, 83, 83, 0.538);
-    margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 2%;
 }
 #fourth {
     background-color: rgba(83, 83, 83, 0.538);
-    margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 20px;
+    padding: 2%;
+}
+#fifth {
+    background-color: rgba(83, 83, 83, 0.538);
+    border-radius: 20px;
+    padding: 2%;
+}
+#sixth {
+    background-color: rgba(83, 83, 83, 0.538);
+    border-radius: 20px;
     padding: 2%;
 }
