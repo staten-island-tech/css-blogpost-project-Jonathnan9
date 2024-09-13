@@ -1,19 +1,58 @@
-body{
-    background-color: #3d3d3d;
+body {
+  background-color: #3d3d3d;
 }
-.heading{
-    text-align: center;
-    color: rgb(191, 191, 191);
-    size: ;
-} 
-/*.articles{
-    width: 50vw;
-    height: 300px;
-    background-color: rgb(87, 37, 37);
-    margin: 0 auto; 
-    border: 20px solid rgb(165, 22, 22);
-    padding: 5px;
-}*/
+.heading {
+  text-align: center;
+  color: rgb(209, 209, 209);
+  font-family: "Inria Sans";
+}
+#title {
+  font-size: 90px;
+}
+
+#subtitle {
+  font-size: 30px;
+}
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.inria-sans-light {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inria-sans-regular {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-sans-bold {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inria-sans-light-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.inria-sans-regular-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inria-sans-bold-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
 .article {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,34 +60,17 @@ body{
   gap: 20px;
   width: 900px;
   margin: 0 auto;
+  color: rgb(209, 209, 209);
+  font-family: "Sofadi One";
 }
-#first {
-    background-color: rgba(83, 83, 83, 0.538);
-    border-radius: 20px;
-    padding: 2%;
-}
-#second {
-    background-color: rgba(83, 83, 83, 0.538);
-    border-radius: 20px;
-    padding: 2%;
-}
-#third {
-    background-color: rgba(83, 83, 83, 0.538);
-    border-radius: 20px;
-    padding: 2%;
-}
-#fourth {
-    background-color: rgba(83, 83, 83, 0.538);
-    border-radius: 20px;
-    padding: 2%;
+.box {
+  background-color: rgba(83, 83, 83, 0.538);
+  border-radius: 20px;
+  padding: 2%;
 }
 #fifth {
-    background-color: rgba(83, 83, 83, 0.538);
-    border-radius: 20px;
-    padding: 2%;
+  background-color: rgba(170, 170, 170, 0.538);
 }
 #sixth {
-    background-color: rgba(83, 83, 83, 0.538);
-    border-radius: 20px;
-    padding: 2%;
+  background-color: rgba(229, 229, 229, 0.538);
 }
